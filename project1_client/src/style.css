@@ -1,0 +1,83 @@
+/* CSS Reset */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    font-family: inherit;
+}
+
+.app {
+    height: 100vh;
+    width: 100%;
+    position: bottom;
+    background-color: rgba(150, 24, 69, .95);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.importpane {
+    height: 100vh;
+    width: 50%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exportpane {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+  color: white;
+  width: auto;
+  height: auto;
+  font-size: 3rem;
+  font-family: inherit;
+  background-color: #282c34;
+  border: 1px solid transparent;
+  padding: 10px 20px 10px 20px;
+  box-shadow: 0 2rem 4rem var(--shadow);
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .2s;
+}
+
+.button:hover {
+  color:  #eee;
+  background-color: #716f75;
+}
+
+.button:active {
+  transform: scale(.95);
+}
+
+.unnamed {
+  display: block;
+  justify-content: center;
+  margin-top: 7%;
+}
+
+.dropdown {
+  text-align: center;
+}
+
